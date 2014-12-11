@@ -1,0 +1,320 @@
+﻿*
+{
+margin: 0 auto;
+padding:0;
+}
+
+	body
+	{
+	background-image:url('images/bg_gradient.png');
+	background-repeat: repeat-x;
+	text-align: center;
+	font-family: 'verdana', Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height: 150%;
+	}
+	
+	body, #mainMenu a:hover
+	{
+	background-color: white;
+	}
+		#container
+		{
+		width: 1300px;
+		position:relative;
+		overflow: hidden;
+		}
+			#palm
+			{
+			background-image:url("images/palma.png");
+			background-repeat:no-repeat;
+			width: 526px;
+			height:585px;
+			position:absolute;
+			bottom:2px;
+			left:0;
+			z-index:2;
+			}	
+				#palm:hover
+				{
+				z-index:1;
+				}	
+				
+			#content
+			{
+			width:800px;
+			}	
+			
+				header
+				{
+				height: 60px;
+				}
+
+					h1
+					{
+					font-family: tahoma;
+					padding-top: 20px;
+					text-align: right;
+					text-transform: uppercase;
+					margin-bottom: 30px;
+					}
+					
+					a
+					{
+					text-decoration:none;
+					color:#0033ff;
+					}
+					
+						a:hover
+						{
+						text-decoration: underline;
+						color: white;
+						}
+						
+					p
+					{
+					text-indent: 10px;
+					}
+		
+					a#menu
+					{
+					color: #ffff99;
+					font-size: 25pt;
+					}
+					
+						a#menu:hover
+						{
+						text-decoration:none;
+						}
+					
+					ul
+					{
+					list-style-type: none;
+					
+					}
+					
+					ul#mainMenu
+					{float:right;
+					margin-right:-20px;
+					}
+
+						ul#mainMenu li 
+						{
+						background-color:#99ccff;
+						margin-right: 20px;
+						}
+				
+							ul#mainMenu li a:hover
+							{
+							color: green;
+							}
+		
+					#main
+					{
+					clear:both;
+					overflow: hidden;
+					}	
+					
+						#main >* >*
+						{
+						position:relative;
+						z-index:1;
+						}
+
+							#main >* >*:hover
+							{
+							z-index:3;
+							}
+							
+						.column, ul#mainMenu li
+						{
+						float:left;
+						}
+							.column >*
+							{
+							border: 2px solid #bfe6f8;
+							background-color: #cdecfa;
+							padding: 5px;
+							}
+								.column >* p
+								{
+								padding: 5px;
+								text-align: left;
+								}	
+									.left
+									{
+									width: 172px;
+									margin-top:5px;
+									}	
+									
+									.middle
+									{
+									width: 420px;
+									margin-top:5px;
+									margin-left: 5px;
+									margin-right:5px;
+									}
+
+									.right
+									{
+									width: 156px;
+									margin-top:5px;
+									text-align:center;
+									}								
+
+										h2, h3
+										{
+										color: #0099cc;
+										}
+
+										h2
+										{
+										text-align:right;
+										margin-right:5px;
+										}
+
+										#mainMenu a
+										{
+										text-decoration:none;
+										color: white;
+										font-size: 13pt;
+										text-transform:uppercase;
+										letter-spacing: 2px;
+										}
+										
+										.award
+										{
+										width: 100px;
+										height: 100px;
+										}
+			#ducky
+			{
+			background-image:url("images/pilites.png");
+			background-repeat:no-repeat;
+			width: 427px;
+			height:178px;
+			position: absolute;
+			bottom: 0;
+			left: 250px;
+			z-index:2;
+			}
+			
+			#floatingDucky
+			{
+			background-image:url("images/omg_floating_duck.png");
+			background-repeat: no-repeat;
+			width: 157px;
+			height: 159px;
+			position: absolute;
+			bottom: 0;
+			left:0;
+			z-index:10;
+			visibility:hidden;
+			}
+
+			#pageFooter
+			{
+			clear:both;
+			height: 20px;
+			background-color: #027bb3;
+			}
+			
+				#pageFooter >*
+				{
+				margin-left: 500px;
+				margin-right: 10px;
+				background-color: transparent;
+				border: none;
+				}
+									#colorMain
+									{
+									clear:both;
+									height: 750px;
+									}
+
+										canvas {
+										border: 2px solid black;
+										margin-left: 270px;
+										}
+
+
+										#nameInput
+										{
+										margin-left: 300px;
+										padding-bottom: 20px;
+										padding-top: 20px;
+										}
+
+										#drawButtons
+										{
+										margin-left: 275px;
+										padding-bottom: 5px;
+										}
+										
+											.sqbuttons
+											{
+											width: 50px;
+											height:50px;
+											border:none;
+											}
+											
+												.sqbuttons:hover
+												{
+												position:relative;
+												bottom:3px;
+												cursor: pointer;
+												}
+									
+													#colorGreen
+													{
+													background-color: green;
+													}
+
+													#colorBlue
+													{
+													background-color:blue;
+													}
+
+													#colorYellow
+													{
+													background-color:yellow;
+													}
+
+													#colorRed
+													{
+													background-color:red;
+													}
+
+													#small
+													{
+													width: 20px;
+													height: 20px;
+													}
+
+													#medium
+													{
+													width: 35px;
+													height: 35px;
+													}
+
+													#clear, #save, #eraser
+													{
+													background-repeat: no-repeat;
+													background-position: center;
+													background-color: transparent;
+													}
+
+													#eraser
+													{
+													background-image:url("images/Eraser.png");
+													}
+
+													#clear
+													{
+													background-image:url("images/clear.png");
+													}
+
+													#save
+													{
+													background-image:url("images/save.png");
+													}
