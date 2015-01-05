@@ -1,60 +1,65 @@
-﻿<!DOCTYPE html>
-	<html>
-		<head>
-			<meta charset="UTF-8">
-			<link rel="stylesheet" type="text/css" href="style.css" />
-			<link rel="stylesheet" type="text/css" media="print" href="printStyle.css" />
-			<meta name="title" content="Important duck information">
-			<meta name="description" content="This is page about ducks where you can learn information about them, colour ducks and get important information">
-			<meta name="keywords" content="ducks, colouring book, javascript, maija, agnese, fjodors, aleksejs">
-			<script src="jquery.js"></script>
-			<script src="duckyfloats.js"></script>
-			<script type="text/javascript" src="drawit.js"></script>
-			<title>Izkrāso savu pīlīti!</title>
-		</head>
-		<body>
-			<div id="container">
-				<div id="palm"></div>
-				<div id="content">
-					<header>
-						<h1><a href="index.html" id="menu">Pēk, pēk pīlītes!</a></h1>
-						<nav>
-							<ul id="mainMenu">
-								<li><a href="index.html">Mājas</a></li>
-								<li><a href="colour.html">Izkrāso mani</a></li>
-								<li><a href="about.html">Par lapu</a></li>						
-								<li><a href="aboutAuthor.html">Par Autori</a></li>
-								<li><a href="gallery.html">Pīlīšu galerija</a></li>
-							</ul>
-						</nav>
-					</header>
-					<section id="colorMain">
-						<aside>
-							<div id="nameInput"><input type="text" id="text" />
-								<button type="submit" id="textButton">Uzliec savu vārdiņu!</button>
-							</div>
-							<div id="drawButtons">
-								<button  class="sqbuttons" id="colorGreen"></button>
-								<button  class="sqbuttons" id="colorBlue"></button>
-								<button class="sqbuttons" id="colorRed"></button>
-								<button  class="sqbuttons" id="colorYellow"></button>									<button  class="sqbuttons" id="small"></button>
-								<button  class="sqbuttons" id="medium"></button>
-								<button  class="sqbuttons" id="large"></button>
-								<button  class="sqbuttons" id="eraser"></button>
-								<button  class="sqbuttons" id="clear"></button>
-								<button  class="sqbuttons" id="save"></button>
-							</div>
-						</aside>
-						<section>
-							<canvas id="drawarea" width="500" height="500">
-								Sorry, your browser does not support CANVAS.
-							</canvas>
-						</section>
-					</section>
-				</div>
-				<div id="floatingDucky"></div>
-				<div id="ducky"></div>
-				<div id="pageFooter"><button id="floatTheDuck">Papeldini pīlīti!</button>@Maija 2012</div>
-			</div>
-		</body>
-	</html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+        <link rel="stylesheet" type="text/css" media="print" href="printStyle.css" />
+        <meta name="title" content="Par gumijas pīlītēm">
+        <meta name="description" content="Šī lapa satur informāciju par gumijas pīlītēm, par gumijas pīlīšu vēsturi. ">
+        <meta name="author" content="Maija, Agnese, Fjodors, Aleksejs">
+        <meta name="keywords" content="gumijas pīlītes, gumija, pīlītes, pīlītēm, pīlīšu, vēsture, vēsturi, pīlīšu vēsture, dzeltenas, dzeltenajām">
+        <script src="check.js"></script>
+        <script src="jquery.js"></script>
+
+        <script src="duckyfloats.js"></script>
+
+        <title>Par dzeltenajām gumijas pīlītēm</title>
+    </head>
+    <body>
+        <div id="container">
+            <div id="palm"></div>
+            <div id="content">
+                <header>
+                    <h1><a href="index.html" id="menu">Par dzeltenajām gumijas pīlītēm</a></h1>
+                    <nav>
+                        <ul id="mainMenu">
+                            <li><a href="index.html">Mājas</a></li>
+                            <li><a href="colour.html">Izkrāso mani</a></li>
+                            <li><a href="about.html">Vēsture</a></li>						
+                            <li><a href="aboutAuthor.html">Par Autori</a></li>
+                            <li><a href="gallery.html">Pīlīšu galerija</a></li>
+                        </ul>
+                    </nav>
+                </header>
+                <section id="colorMain">
+                    <aside>
+                        <div id="nameInput"><input type="text" id="text" />
+                            <button type="submit" id="textButton">Uzliec savu vārdiņu!</button>
+                        </div>
+                        <div id="drawButtons">
+                            <button  class="sqbuttons" id="colorGreen"></button>
+                            <button  class="sqbuttons" id="colorBlue"></button>
+                            <button class="sqbuttons" id="colorRed"></button>
+                            <button  class="sqbuttons" id="colorYellow"></button>									<button  class="sqbuttons" id="small"></button>
+                            <button  class="sqbuttons" id="medium"></button>
+                            <button  class="sqbuttons" id="large"></button>
+                            <button  class="sqbuttons" id="eraser"></button>
+                            <button  class="sqbuttons" id="clear"></button>
+                            <button  class="sqbuttons" id="save"></button>
+                        </div>
+                    </aside>
+                    <section>
+                        <canvas id="drawarea" width="500" height="500">
+                            Sorry, your browser does not support CANVAS.
+                        </canvas>
+                    </section>
+                </section>
+            </div>
+            <footer>
+                <div id="floatingDucky"></div>
+                <div id="ducky"></div>
+                <div id="pageFooter"><button id="floatTheDuck">Papeldini pīlīti!</button>&copy; Maija 2014</div>
+            </footer>
+        </div>
+    </body>
+</html>
